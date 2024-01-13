@@ -86,7 +86,7 @@ const CoinDetails = () => {
   }, [id,currency,days]);
 
   return (
-    <Container maxW="80%" >
+    <Container maxW="container.xl" >
       {
         loading?<Loader/>:(
           <>
